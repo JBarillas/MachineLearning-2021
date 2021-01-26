@@ -9,3 +9,4 @@ def equation(n,m):
         return equation(n-1,m) + equation(n-1, m-1)
 #Calcule (50,35) y (100,85)
 print(equation(50,35))
+print(equation(100,85))
