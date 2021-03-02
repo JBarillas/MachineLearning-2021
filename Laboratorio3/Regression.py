@@ -31,3 +31,4 @@ def gradient_descent(
         history.append(theta - learning_rate * cost_function_gradient(X, y, theta))
 
     return theta, history
+
